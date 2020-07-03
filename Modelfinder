@@ -1,2 +1,2 @@
 # Finding the best partition model 
-iqtree -s Ips.phenetic.alignment.nexus -spp Ips.phenetic.alignment.nexus -m MFP+MERGE 
+iqtree -s cognato.nexus -spp cognato.nexus -m MFP+MERGE 
