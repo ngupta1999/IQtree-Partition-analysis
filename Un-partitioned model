@@ -1,0 +1,2 @@
+#Unpartitoned model analysis
+iqtree -s cognato.nexus
