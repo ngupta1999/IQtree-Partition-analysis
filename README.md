@@ -9,6 +9,6 @@
    2. MK+FQ+I+G4
    3. MK+FQ+R4
    AICc Score: 74695.2448 
-  The AICc value was found less then the unpartitioned model which is 74950.4333
+  
 
   
