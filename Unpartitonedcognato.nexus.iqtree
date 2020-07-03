@@ -1,0 +1,189 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: Ips.phenetic.alignment.nexus
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 161572
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 44 sequences with 2034 morphological sites
+Number of constant sites: 1209 (= 59.4395% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1209 (= 59.4395% of all sites)
+Number of parsimony informative sites: 708
+Number of distinct site patterns: 882
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: MK+FQ+I+G4
+
+List of models sorted by BIC scores: 
+
+Model             LogL          AIC      w-AIC      AICc     w-AICc       BIC      w-BIC
+MK+FQ+I+G4      -37524.6936  75223.3872 - 0.0003  75231.2556 - 0.0005  75712.1323 + 0.9687
+MK+FQ+R4        -37512.8924  75207.7848 + 0.7587  75216.4068 + 0.7924  75719.0009 - 0.0312
+MK+FQ+R5        -37512.0390  75210.0779 + 0.2410  75219.0903 + 0.2071  75732.5296 - 0.0000
+MK+FQ+R3        -37532.8509  75243.7018 - 0.0000  75251.9425 - 0.0000  75743.6824 - 0.0000
+MK+FQ+G4        -37591.9613  75355.9226 - 0.0000  75363.6082 - 0.0000  75839.0499 - 0.0000
+MK+FQ+R2        -37706.2475  75586.4950 - 0.0000  75594.3634 - 0.0000  76075.2401 - 0.0000
+MK+FQ+I         -38073.3280  76318.6561 - 0.0000  76326.3418 - 0.0000  76801.7834 - 0.0000
+MK+FQ           -40923.8008  82017.6016 - 0.0000  82025.1067 - 0.0000  82495.1112 - 0.0000
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MK+FQ+I+G4
+
+State frequencies: (equal frequencies)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.5266
+Gamma shape alpha: 1.2759
+
+ Category  Relative_rate  Proportion
+  0         0              0.5266
+  1         0.3982         0.1184
+  2         1.1542         0.1184
+  3         2.1841         0.1184
+  4         4.7125         0.1184
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -37384.2824 (s.e. 1062.0404)
+Unconstrained log-likelihood (without tree): -10360.4803
+Number of free parameters (#branches + #model parameters): 87
+Akaike information criterion (AIC) score: 74942.5648
+Corrected Akaike information criterion (AICc) score: 74950.4333
+Bayesian information criterion (BIC) score: 75431.3099
+
+Total tree length (sum of branch lengths): 2.9038
+Sum of internal branch lengths: 0.9077 (31.2587% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ac1' is drawn at root
+
++------------------Ac1
+|
+|            +-----------Am1
+|         +--|
+|         |  +--------------Pro
+|      +--|
+|      |  |     +--------Ce3
+|      |  |  +--|
+|      |  |  |  +---------Ty1
+|      |  +--|
+|      |     |             +---------Lo3
+|      |     |         +---|
+|      |     |         |   +----Ste1
+|      |     |  +------|
+|      |     |  |      +-------------Sch1
+|      |     +--|
+|      |        +------------Wo3
+|   +--|
+|   |  |        +--Bor2
+|   |  |    +---|
+|   |  |    |   |  +--Pil2
+|   |  |    |   +--|
+|   |  |    |      +--Tri4
+|   |  +----|
+|   |       |       +--Hu2
+|   |       +-------|
+|   |               +--Pet1
++---|
+|   |      +----------Av5
+|   |  +---|
+|   |  |   |        +------------------Bon2
+|   |  |   |     +--|
+|   |  |   |     |  +----Pin1
+|   |  |   |  +--|
+|   |  |   |  |  +-----------------Du3
+|   |  |   +--|
+|   |  |      |     +------Int7
+|   |  |      +-----|
+|   |  |            +-------Pl4
+|   +--|
+|      |                +--------Cala2
+|      |         +------|
+|      |         |      +------Cali1
+|      |      +--|
+|      |      |  +-----------Cr2
+|      +------|
+|             |             +--Co4
+|             |          +--|
+|             |          |  +--Ho5
+|             |     +----|
+|             |     |    +------Pa2
+|             |  +--|
+|             |  |  +---------Mo1
+|             +--|
+|                |  +----------Gr2
+|                +--|
+|                   +---------------Le3
+|
+|                                            +----------Con3
+|                     +----------------------|
+|                     |                      +----------Mx1
+|              +------|
+|              |      +------------------------Pk1
+|          +---|
+|          |   |               +---------------------Pito1
+|          |   |        +------|
+|          |   |        |      +-----------------Pho1
+|          |   +--------|
+|          |            +-------------------Pica1
+|  +-------|
+|  |       |                     +-------------Lat3
+|  |       |       +-------------|
+|  |       |       |             +------------------Sp1
+|  |       |  +----|
+|  |       |  |    +----------------Ort1
+|  |       +--|
+|  |          |       +--------------------Ma1
+|  |          +-------|
+|  |                  |           +--------------Nob1
+|  |                  +-----------|
+|  |                              +--------Oer1
++--|
+   |               +----Em1
+   |   +-----------|
+   |   |           +------Knu1
+   +---|
+       +----------------Sex1
+
+Tree in newick format:
+
+(Ac1:0.0743124068,((((Am1:0.0503347999,Pro:0.0608564212):0.0100976092,((Ce3:0.0381775230,Ty1:0.0420737923):0.0117872792,(((Lo3:0.0399277398,Ste1:0.0220916279):0.0186212525,Sch1:0.0583501667):0.0287198479,Wo3:0.0537963728):0.0073558829):0.0099037619):0.0080807733,((Bor2:0.0033740058,(Pil2:0.0061846430,Tri4:0.0056863312):0.0033401613):0.0189483883,(Hu2:0.0012169871,Pet1:0.0010845851):0.0322667076):0.0204632122):0.0124969444,((Av5:0.0457805217,(((Bon2:0.0772415438,Pin1:0.0218341765):0.0122713010,Du3:0.0739164229):0.0067153881,(Int7:0.0294123927,Pl4:0.0333651363):0.0254288888):0.0127001679):0.0171555325,(((Cala2:0.0356156413,Cali1:0.0308939729):0.0291542311,Cr2:0.0491320876):0.0116460518,((((Co4:0.0119234780,Ho5:0.0140638916):0.0152736906,Pa2:0.0281492343):0.0200827934,Mo1:0.0402199200):0.0150881492,(Gr2:0.0460226421,Le3:0.0643719619):0.0095680631):0.0085735004):0.0277255764):0.0069613556):0.0181031289,(((((Con3:0.0452950387,Mx1:0.0460020670):0.0929367545,Pk1:0.0982182354):0.0285450106,((Pito1:0.0887427475,Pho1:0.0725348402):0.0305448354,Pica1:0.0810548540):0.0363779135):0.0186123839,(((Lat3:0.0560530491,Sp1:0.0777515262):0.0550925032,Ort1:0.0701579077):0.0228813897,(Ma1:0.0849061886,(Nob1:0.0599363516,Oer1:0.0362179319):0.0480288310):0.0323706043):0.0111627779):0.0336511911,((Em1:0.0198831332,Knu1:0.0308321109):0.0477696768,Sex1:0.0691128730):0.0169787563):0.0142058922);
+
+TIME STAMP
+----------
+
+Date and time: Fri Jul 03 20:07:09 2020
+Total CPU time used: 608.609 seconds (0h:10m:8s)
+Total wall-clock time used: 611.966 seconds (0h:10m:11s)
+
