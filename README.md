@@ -2,7 +2,7 @@
 ## What's that for ?
  To figure out the best partition model using IQtree and compare with the an unpartitioned model
 ## How to carry out the analysis ?
-  Perform the Modelfinder on the cognato.nexus file(contains both alignment and patition file) using the command line mentioned in the Commandline-Modelfinder file.And to perform   the unpartiotned model analysis commandline mentioned in the C
+  Perform the Modelfinder on the cognato.nexus file(contains both alignment and patition file) using the command line mentioned in the Commandline-Modelfinder file.And to perform   the unpartiotned model analysis commandline mentioned in the Commandline-Unpartitioned-model is used.
   ### Results 
    As per the partiton file the best fit models per partitions were determined(Since three partitions were made in the partition file)
    1. MK+FQ+I+G4
