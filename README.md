@@ -8,6 +8,7 @@
    1. MK+FQ+I+G4
    2. MK+FQ+I+G4
    3. MK+FQ+R4
+   
    AICc Score: 74695.2448 
   
 
